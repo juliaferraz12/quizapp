@@ -108,6 +108,43 @@ main h1 {
     font-style: italic;
 }
 
+.assuntos button{
+    border: none;
+    background: var(--button-bg);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img{
+    width: 100%;
+}
+
+.botao_html div{
+    background: var(--bg-html);
+}
+
+.botao_css div{
+    background: var(--bg-css);
+}
+.botao_Javascript div{
+    background: var(--bg-Javascript);
+}
+
 .assuntos{
     display: flex;
     flex-direction: column;
