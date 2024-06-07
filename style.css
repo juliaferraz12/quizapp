@@ -107,3 +107,9 @@ main h1 {
     line-height: 150%;
     font-style: italic;
 }
+
+.assuntos{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
